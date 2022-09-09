@@ -42,6 +42,8 @@
         "deploy": "main -d build"
     },
     "dependencies": {
+        "code": "^5.2.4",
+        "errno": "^1.0.0",
         "gh-pages": "^4.0.0"
     }
 }
