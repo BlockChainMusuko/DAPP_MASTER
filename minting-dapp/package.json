@@ -40,7 +40,7 @@
         "watch": "encore dev --watch",
         "build": "encore production --progress",
         "predeploy": "npm run build",
-        "deploy": "main -d build"
+        "deploy": "site -d build"
     },
     "dependencies": {
         "code": "^5.2.4",
