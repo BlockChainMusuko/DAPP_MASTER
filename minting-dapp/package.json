@@ -1,7 +1,7 @@
 {
     "name": "@hashlips-lab/nft-erc721-collection-dapp",
     "version": "1.0.0",
-    "homepage": "https://JeffBlanton.github.io/DAPP_MASTER/",
+    "homepage": "https://JeffBlanton.github.io/contract_dapp_github/",
     "devDependencies": {
         "@babel/preset-react": "^7.0.0",
         "@metamask/detect-provider": "^1.2.0",
@@ -40,7 +40,7 @@
         "watch": "encore dev --watch",
         "build": "encore production --progress",
         "predeploy": "npm run build",
-        "deploy": "main -d build"
+        "deploy": "fg-pages -d build"
     },
     "dependencies": {
         "code": "^5.2.4",
