@@ -46,6 +46,7 @@
         "code": "^5.2.4",
         "errno": "^1.0.0",
         "gh-pages": "^4.0.0",
-        "hardhat": "^2.11.1"
+        "hardhat": "^2.11.1",
+        "use-constructor": "0.0.3"
     }
 }

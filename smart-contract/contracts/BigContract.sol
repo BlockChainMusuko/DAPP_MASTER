@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity >=0.8.9 <0.9.0;
+pragma solidity >=0.4.21 <0.7.0; //>=0.8.9 <0.9.0;
 
 import '../node_modules/erc721a/contracts/ERC721A.sol';
 import '../node_modules/@openzeppelin/contracts/access/Ownable.sol';
