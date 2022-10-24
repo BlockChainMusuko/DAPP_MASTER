@@ -61,9 +61,11 @@
     "reveal": "hardhat run scripts/8_reveal.ts"
   },
   "dependencies": {
+    "cargo": "^0.8.0",
     "code": "^5.2.4",
     "enoent": "^1.0.0",
     "errno": "^1.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "rust": "^0.1.6"
   }
 }

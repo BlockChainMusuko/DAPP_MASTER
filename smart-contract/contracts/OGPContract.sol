@@ -7,7 +7,7 @@ import '../node_modules/@openzeppelin/contracts/access/Ownable.sol';
 import '../node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '../node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract BigContract is ERC721A, Ownable, ReentrancyGuard {
+contract OGPContract is ERC721A, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
