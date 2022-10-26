@@ -9,10 +9,10 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'BigContract', //Blanton
-  tokenName: 'BlantonIsGreateToken', //Blanton
-  tokenSymbol: 'BIG', //Blanton
-  hiddenMetadataUri: 'ipfs://QmdZTyhMxqneWXN5SXaCWAcSVAowgUKckct6HM8SGnGA6Z/hidden_json.json', //Blanton
+  contractName: 'OGPContract', //Blanton
+  tokenName: 'OG Poser', //Blanton
+  tokenSymbol: 'OGP', //Blanton
+  hiddenMetadataUri: 'ipfs://Qmex5hd4bagiCHHaQAT4zj6zS7jtbvPTmXUHwQLbtbFh1Z/hidden_json.json', //Blanton
   maxSupply: 20, //Blanton
   whitelistSale: {
     price: 0.05,

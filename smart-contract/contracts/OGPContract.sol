@@ -2,12 +2,12 @@
 
 pragma solidity >=0.8.9 <0.9.0;
 
-import 'erc721a/contracts/ERC721A.sol';
-import '@openzeppelin/contracts/access/Ownable.sol';
-import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
-import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
+import '../node_modules/erc721a/contracts/ERC721A.sol';
+import '../node_modules/@openzeppelin/contracts/access/Ownable.sol';
+import '../node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
+import '../node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract BigContract is ERC721A, Ownable, ReentrancyGuard {
+contract OGPContract is ERC721A, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 

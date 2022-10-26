@@ -1,10 +1,10 @@
 import NetworkConfigInterface from './NetworkConfigInterface';
 
 export const ethereumTestnet: NetworkConfigInterface = {
-  chainId: 4,
+  chainId: 5,
   blockExplorer:{
     name: 'Etherscan',
-    generateContractUrl: (contractAddress: string) => `https://rinkeby.etherscan.io/address/${contractAddress}`,
+    generateContractUrl: (contractAddress: string) => `https://eth-goerli.g.alchemy.com/v2/${contractAddress}`,
   },
 }
 
